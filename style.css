@@ -6,10 +6,12 @@ html, body {
   height: 100%;
   -webkit-font-smoothing: antialias;
   color: #333;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+  font-size: 18px;
 }
 
 body {
-  font-family: 'Cormorant', serif;
   margin: 0;
 }
 
@@ -22,8 +24,6 @@ h1, h3 {
 .heading--secondline {
   line-height: 1em;
   text-transform: uppercase;
-  text-align: center;
-  /* text-align: center; */
 }
 .heading--firstline {
   font-size: 72px;
@@ -36,17 +36,20 @@ h1, h3 {
   padding-left: 16px;
 }
 .heading {
+  font-family: 'Cormorant', serif;
   margin-top: 150px;
   text-shadow: 2px 2px 5px #ccc;
 }
 .paragraph {
-  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 100;
   margin: 200px auto 0;
   text-align: center;
-  font-size: 18px;
   max-width: 20em;
 }
 .paragraph p {
   margin-bottom: 50px;
+}
+.work {
+  margin-top: 10em;
+  margin-bottom: 10em;
 }
